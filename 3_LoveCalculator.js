@@ -8,8 +8,8 @@ Take 2 names as input and display the love percentage between the two.
 
 // SOLUTION
 
-var name1 = prompt("Enter the first name: ");
-var name2 = prompt("Enter the second name: ");
+prompt("Enter the first name: ");
+prompt("Enter the second name: ");
 
 var lovePercent = Math.random();
 lovePercent = Math.floor(lovePercent*100) + 1; // 1-100% (both inclusive)
