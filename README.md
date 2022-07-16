@@ -18,7 +18,7 @@
 - Variables (`var`, naming conventions)
 - String
   - String concatenation
-  - `name.length()`
+  - `name.length`
   - `name.slice(x,y)`
   - `name.toUpperCase()`
   - `name.toLowerCase()`
