@@ -6,6 +6,7 @@
 1. Life In Weeks
 2. BMI Calculator (2.1)
 3. Love Calculator
+4. Leap Year
 
 ### Topics learned:
 
@@ -33,3 +34,10 @@
 - Control statements (if-else)
 - Comparators and Equality (=== v/s ==)
 - Logical operators (&&, ||, !)
+- Arrays
+  - `var arr = ["A", 'Z', 1, true];`
+  - `arr.length`
+  - `arr.includes("A")` // returns true/false
+  - `arr.push(0)` // adds an element to the end of arr
+  - `arr.pop` // deletes the last array element
+
