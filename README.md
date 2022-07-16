@@ -26,8 +26,10 @@
   - No arguments, no return values
   - Arguments, no return values
   - Arguments, return values
+- `Math.pow(x, y)`
+- `Math.round(x)`
 - `Math.random()`
-- `Math.floor()`
+- `Math.floor(x)`
 - Control statements (if-else)
 - Comparators and Equality (=== v/s ==)
 - Logical operators (&&, ||, !)
