@@ -7,6 +7,7 @@
 2. BMI Calculator (2.1)
 3. Love Calculator
 4. Leap Year
+5. Who's Buying Lunch
 
 ### Topics learned:
 
