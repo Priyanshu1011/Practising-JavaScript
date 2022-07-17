@@ -8,6 +8,8 @@
 3. Love Calculator
 4. Leap Year
 5. Who's Buying Lunch
+6. 99 Bottles
+7. Fibonacci Sequence
 
 ### Topics learned:
 
@@ -41,4 +43,7 @@
   - `arr.includes("A")` // returns true/false
   - `arr.push(0)` // adds an element to the end of arr
   - `arr.pop` // deletes the last array element
+- Loops
+  - `while(<condition>){}` (used while program is in a particular state)
+  - `for(var i = 0; i < 2; i++){}` (used to iterate a fixed no. of times)
 
