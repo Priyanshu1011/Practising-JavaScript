@@ -9,10 +9,8 @@ Write a program that generates the Fibonacci sequence.
 function fibonacciGenerator(n) {
     var fiboSequence = [];
     for(var i = 1; i <= n; i++) {
-        if (i === 1) {
-            fiboSequence.push(0);
-        } else if (i === 2) {
-            fiboSequence.push(1);
+        if (i <= 2) {
+            fiboSequence.push(i-1);
         } else {
             fiboSequence.push(fiboSequence[i-3] + fiboSequence[i-2]);
         }
