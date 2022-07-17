@@ -47,3 +47,9 @@
   - `while(<condition>){}` (used while program is in a particular state)
   - `for(var i = 0; i < 2; i++){}` (used to iterate a fixed no. of times)
 
+<hr>
+
+- Adding JS to Websites
+  - Inline, internal, external JS (`<script src="index.js"></script>`)
+
+
