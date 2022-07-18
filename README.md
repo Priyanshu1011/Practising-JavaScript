@@ -57,6 +57,14 @@
   - `document.firstElementChild`, `document.lastElementChild`, `.innerHTML`, `.style.color`, `document.querySelector("input").click()`
   - Objects (HTML elements) have: ***Properties*** (Get properties, Set properties), ***Methods*** (Call methods)
   - Properties describe something about the object. Methods are the things the object can do.
-  - `document.getElementsByTagName("li")`, `document.getElementsByClassName("btn")`
+  - `document.getElementsByTagName("li")`, `document.getElementsByClassName("btn")` (both return an array)
+  - `document.getElementById("title")` (returns 1 element since ID's are unique in one document)
+  - `document.querySelector(".btn")` (returns 1 element, argument is a selector)
+    - In case of multiple objects, 1st object is returned
+  - `document.querySelectorAll(".btn")` (returns an array)
+  - **Manipulating styles**: `.style`, camelCase used for properties, "" used for values (NOT RECOMMENDED TO USE)
+  - `.classList.add("<className>")`, `.classList.remove("<className>")`, `.classList.toggle("<className>")` AND add styles to specific class in the stylesheet
+  - **Manipulating text**: Diff. b/w `.innerHTML` (HTML code inside the selected object) and `.textContent` (only the text in the selected object)
+  - **Manipulating HTML element attributes**: `.attributes`, `.getAttribute("href")`, `setAttribute("href", "https://www.github.com")`
 
 
