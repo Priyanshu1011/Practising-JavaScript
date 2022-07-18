@@ -51,5 +51,11 @@
 
 - Adding JS to Websites
   - Inline, internal, external JS (`<script src="index.js"></script>`)
+- Document Object Model (DOM)
+  - HTML elements are treated as *objects*
+  - document -> html -> (head -> title, body -> h1...)
+  - `document.firstElementChild`, `document.lastElementChild`, `.innerHTML`, `.style.color`, `document.querySelector("input").click()`
+  - Objects (HTML elements) have: ***Properties*** (Get properties, Set properties), ***Methods*** (Call methods)
+  - Properties describe something about the object. Methods are the things the object can do.
 
 
