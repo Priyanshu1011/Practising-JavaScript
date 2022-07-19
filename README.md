@@ -67,4 +67,6 @@
   - **Manipulating text**: Diff. b/w `.innerHTML` (HTML code inside the selected object) and `.textContent` (only the text in the selected object)
   - **Manipulating HTML element attributes**: `.attributes`, `.getAttribute("href")`, `setAttribute("href", "https://www.github.com")`
 
+- Advanced JS and DOM Manipulation
+  - Event Listeners (`.addEventListener("click", <function name>)` OR `.addEventListener("click", function (){//code})`)
 
