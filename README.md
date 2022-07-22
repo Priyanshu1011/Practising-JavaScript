@@ -65,8 +65,15 @@
   - **Manipulating styles**: `.style`, camelCase used for properties, "" used for values (NOT RECOMMENDED TO USE)
   - `.classList.add("<className>")`, `.classList.remove("<className>")`, `.classList.toggle("<className>")` AND add styles to specific class in the stylesheet
   - **Manipulating text**: Diff. b/w `.innerHTML` (HTML code inside the selected object) and `.textContent` (only the text in the selected object)
-  - **Manipulating HTML element attributes**: `.attributes`, `.getAttribute("href")`, `setAttribute("href", "https://www.github.com")`
+  - **Manipulating HTML element attributes**: `.attributes`, `.getAttribute("href")`, `.setAttribute("href", "https://www.github.com")`
 
 - Advanced JS and DOM Manipulation
-  - Event Listeners (`.addEventListener("click", <function name>)` OR `.addEventListener("click", function (){//code})`)
+  - Event Listeners (`.addEventListener("click", <function name>)` OR `.addEventListener("click", function (){//code})`) (anonymous function)
+  - $0 refers to selected element
+  - `debugger;` and `calculator(2,3,add);` in Chrome Dev Tools
+  - Functions with functions as input -> Higher Order Functions
+  
+
+
+
 
