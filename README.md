@@ -72,6 +72,12 @@
   - $0 refers to selected element
   - `debugger;` and `calculator(2,3,add);` in Chrome Dev Tools
   - Functions with functions as input -> Higher Order Functions
+  - `Audio()`, `.play()`
+  - `this` refers to the HTML element which triggers the event listener
+  - `var bellBoy1 = {name: "Tom", age: "24"}` | `function BellBoy (name, age){this.name = name; this.age = age}`, `var bellBoy1 = new BellBoy("Tom", 24);`
+  - switch statement
+  - `this.play = function(){//code}`
+  
   
 
 
