@@ -77,6 +77,7 @@
   - `var bellBoy1 = {name: "Tom", age: "24"}` | `function BellBoy (name, age){this.name = name; this.age = age}`, `var bellBoy1 = new BellBoy("Tom", 24);`
   - switch statement
   - `this.play = function(){//code}`
+  - `keydown`, `event`, `event.key`
   
   
 
