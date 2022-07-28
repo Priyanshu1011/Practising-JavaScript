@@ -81,7 +81,7 @@
   - `keydown`, `event`, `event.key`
   - Callback fns are the fns passed as args in Higher Order functions (this function is called by the higher order fn not by user)
   - function(event){console.log(event);} // prints the event object
-  - setTimeout(<fn to be called after delay>, <time delay in ms>);
+  - setTimeout([fn to be called after delay], [time delay in ms]);
   
   
 
