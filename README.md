@@ -75,9 +75,13 @@
   - `Audio()`, `.play()`
   - `this` refers to the HTML element which triggers the event listener
   - `var bellBoy1 = {name: "Tom", age: "24"}` | `function BellBoy (name, age){this.name = name; this.age = age}`, `var bellBoy1 = new BellBoy("Tom", 24);`
+  - Objects in JS similar in syntax to dictionaries in Python
   - switch statement
   - `this.play = function(){//code}`
   - `keydown`, `event`, `event.key`
+  - Callback fns are the fns passed as args in Higher Order functions (this function is called by the higher order fn not by user)
+  - function(event){console.log(event);} // prints the event object
+  - setTimeout(<fn to be called after delay>, <time delay in ms>);
   
   
 
